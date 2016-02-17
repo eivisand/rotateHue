@@ -1,0 +1,54 @@
+#colorwheel {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-left: 50px solid #0f0;
+    transition: 5s ease-in-out;
+    margin: 200px;
+}
+.colorwheel--coolio {
+  -webkit-filter: hue-rotate(360deg);
+  transform: rotate(-360deg);
+}
+.colorwheel--huge {
+    width: 5000px;
+    height: 200px;
+}
+
+.colorwheel {
+    height: 150px;
+    position: absolute;
+    margin: 150px;
+    border-left: 100px solid transparent;
+}
+.clickMe {
+      -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  border: 3px solid #343436;
+    background: #343436;
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    cursor: pointer;
+    text-align: center;
+    font-weight: normal !important;
+}
+body{
+  background-color: #222324
+}
