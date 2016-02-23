@@ -8,6 +8,11 @@
 }
 .colorwheel--coolio {
   -webkit-filter: hue-rotate(360deg);
+  filter: hue-rotate(360deg);
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
   transform: rotate(-360deg);
 }
 .colorwheel--huge {
@@ -22,32 +27,28 @@
     border-left: 100px solid transparent;
 }
 .clickMe {
-      -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   border: 3px solid #343436;
-    background: #343436;
-  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
-    -webkit-appearance: none;
-    font-size: 1rem;
-    text-shadow: none;
-    line-height: 1.2;
-    display: inline-block;
-    border: 0;
-    outline: 0;
-    padding: 10px 16px;
-    margin: 0 10px 0 0;
-    position: relative;
-    border-radius: 3px;
-    border: 3px solid transparent;
-    color: white;
-    cursor: pointer;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-decoration: none !important;
-    cursor: pointer;
-    text-align: center;
-    font-weight: normal !important;
+  background: #343436;
+  -webkit-appearance: none;
+  font-size: 1rem;
+  text-shadow: none;
+  line-height: 1.2;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  padding: 10px 16px;
+  position: relative;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  text-align: center;
 }
 body{
   background-color: #222324
